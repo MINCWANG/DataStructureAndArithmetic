@@ -24,7 +24,7 @@ public class KnapsackProblem {
         //为了记录放入商品的情况，我们定一个二维数组
         int[][] path = new int[n + 1][m + 1];
         //初始化第一行和第一列, 这里在本程序中，可以不去处理，因为默认就是0
-        for (int i = 0; i < v.length; i++) {
+        for (int i = 0; i < v.length;  i++) {
             //将第一列设置为0
             v[i][0] = 0;
         }
